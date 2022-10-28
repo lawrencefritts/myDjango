@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'books',
+    'cannibas',
+    'comic_books',
+    'movies',
 ]
 
 MIDDLEWARE = [
@@ -78,10 +81,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'rstuff',
-        'USER': 'lfritts',
+        'USER': 'rstuff',
         'PASSWORD': 'Xl9ux!Y%3v',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5433',
     }
 }
 
